@@ -13,10 +13,11 @@ doskey up=php artisan up $*
 doskey seed=php artisan db:seed $*
 doskey seed=php artisan db:seed $*
 doskey event=php artisan event:list $*
-doskey php artisan make:$*
+doskey make=php artisan make$*
 
 doskey cache=php artisan cache:clear $T php artisan config:cache $T php artisan config:clear $T php artisan route:clear $T php artisan route:cache $T php artisan event:cache $T php artisan event:clear $*
 
+doskey route=php artisan route $*
 
 
 doskey cache_clear=php artisan cache:clear $*
