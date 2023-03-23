@@ -75,20 +75,32 @@ doskey make_resource=php artisan make:resource $*
 doskey make_rule=php artisan make:rule $*
 doskey make_scope=php artisan make:scope $*
 doskey make_seeder=php artisan make:seeder $*
-doskey make_test=php artisan make:test
+doskey make_test=php artisan make:test $*
 
+doskey migrate_fresh=php artisan migrate:fresh $*
+doskey migrate_install=php artisan migrate:install $*
+doskey migrate_refresh=php artisan migrate:refresh $*
+doskey migrate_reset=php artisan migrate:reset $*
+doskey rollback=php artisan migrate:rollback $*
+doskey migrate_status=php artisan migrate:status $*
 
+doskey model=php artisan model:show $*
+doskey model_prune=php artisan model:prune $*
 
+doskey notifications_table=php artisan notifications:table $*
+doskey optimize_clear=php artisan optimize:clear $*
 
+doskey pkg=php artisan package:discover $*
 
+doskey permission_reset=php artisan permission:cache-reset $*
+doskey permission_create=php artisan permission:create-permission $*
+doskey permission_create_role=php artisan permission:create-role $*
+doskey permission_setup_teams=php artisan permission:setup-teams $*
+doskey permission_show=php artisan permission:show $*
 
-
-
-
-
-
-
-
+doskey pest_dataset=php artisan pest:dataset $*                  
+doskey pest_install=php artisan pest:install $*                  
+doskey pest_test=php artisan pest:test $*
 
 
 
