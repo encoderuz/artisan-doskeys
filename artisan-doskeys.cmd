@@ -22,7 +22,18 @@ doskey backup_run=php artisan backup:run $*
 doskey backup_list=php artisan backup:list $*
 doskey backup_monitor=php artisan backup:monitor $*
 
+doskey cache_clear=php artisan cache:clear $*
+doskey cache_forget=php artisan cache:forget $*
+doskey cache_table=php artisan cache:table $*
+doskey cache_pst=php artisan cache:prune-stale-tags
+
 doskey channel_list =php artisan channel:list $*
+
+doskey config_cache=php artisan config:cache $*
+doskey config_clear=php artisan config:clear $*
+doskey config_cc=php artisan config:cache $T php artisan config:clear $*
+
+
 
 
 doskey seed=php artisan db:seed $*
@@ -103,19 +114,54 @@ doskey pest_install=php artisan pest:install $*
 doskey pest_test=php artisan pest:test $*
 
 
+doskey qbt=queue:php artisan queue:batches-table $*
+doskey queue_clear=php artisan queue:clear $*
+doskey queue_failed=php artisan queue:failed $*
+doskey queue_failed_table=php artisan queue:failed-table $*
+doskey queue_flush=php artisan queue:flush $*
+doskey queue_forget=php artisan queue:forget $*
+doskey queue_listen=php artisan queue:listen $*
+doskey queue_monitor=php artisan queue:monitor $*
+doskey queue_prune_batches=php artisan queue:prune-batches $*
+doskey queue_prune_failed=php artisan queue:prune-failed $*
+doskey queue_restart=php artisan queue:restart $*
+doskey queue_retry=php artisan queue:retry $*
+doskey queue_retry_batch=php artisan queue:retry-batch $*
+doskey queue_table=php artisan queue:table $*
+doskey queue_work=php artisan queue:work $*
 
 doskey route=php artisan route $* 
-doskey cache_clear=php artisan cache:clear $*
-doskey cache_forget=php artisan cache:forget $*
-doskey cache_table=php artisan cache:table $*
-doskey cache_pst=php artisan cache:prune-stale-tags
+doskey route_cache=php artisan route:cache $*
+doskey route_clear=php artisan route:clear $*
+doskey route_list=php artisan route:list $*
 
+doskey sail_add=php artisan sail:add $*
+doskey sail_install=php artisan sail:install $*
+doskey sail_publish=php artisan sail:publish $*
 
-doskey config_cache=php artisan config:cache $*
-doskey config_clear=php artisan config:clear $*
-doskey config_cc=php artisan config:cache $T php artisan config:clear $*
+doskey sanctum=php artisan sanctum:prune-expired $*
 
+doskey schedule=php artisan schedule $*
+doskey schedule_cc=php artisan schedule:clear-cache $*
+doskey schedule_list=php artisan schedule:list $*
+doskey schedule_run=php artisan schedule:run $*
+doskey schedule_test=php artisan schedule:test $*
+doskey schedule_work=php artisan schedule:work $*
 
+doskey schema=php artisan schema:dump $*
+
+doskey session=php artisan session:table $*
+
+doskey storage=php artisan storage:link $*
+
+doskey stub=php artisan stub:publish $*
+
+doskey ui_auth=php artisan ui:auth $*
+doskey ui_controllers=php artisan ui:controllers $*
+doskey vendor=php artisan vendor:publish $*
+
+doskey view_cache=php artisan view:cache $*
+doskey view_clear=php artisan view:clear $*
 
 
 
