@@ -166,3 +166,6 @@ doskey view_clear=php artisan view:clear $*
 doskey cache=php artisan cache:clear $T php artisan config:cache $T php artisan config:clear $T php artisan route:clear $T php artisan route:cache $T php artisan event:cache $T php artisan event:clear $*
 
 doskey npm_run=npm run $*
+doskey npm_watch=npm run watch $*
+doskey npm_dev=npm run dev $*
+doskey npm_prod=npm run prod $*
