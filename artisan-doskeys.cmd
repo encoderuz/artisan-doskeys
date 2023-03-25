@@ -161,21 +161,8 @@ doskey ui_controllers=php artisan ui:controllers $*
 doskey vendor=php artisan vendor:publish $*
 
 doskey view_cache=php artisan view:cache $*
-doskey view_clear=php artisan view:clear $*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+doskey view_clear=php artisan view:clear $* 
 
 doskey cache=php artisan cache:clear $T php artisan config:cache $T php artisan config:clear $T php artisan route:clear $T php artisan route:cache $T php artisan event:cache $T php artisan event:clear $*
+
+doskey npm_run=npm run $*
