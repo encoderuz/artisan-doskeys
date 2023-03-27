@@ -46,3 +46,6 @@
 | `cache_forget`             | `php artisan cache:forget`                     |
 | `cache_table`             | `php artisan cache:table`                     |
 | `cache_pst`             | `php artisan cache:prune-stale-tags`   |
+|  | 
+|   Channel    |  
+| `channel_list`             | `php artisan channel:list`   |
