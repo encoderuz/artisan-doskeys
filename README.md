@@ -30,10 +30,15 @@
 | `artisan_about`       | `php artisan about`                             |
 | `artisan_list`        | `php artisan list`                              |
 | `auth_reset`          | `php artisan auth:clear-resets`                 | 
-| ## Bakup  | 
+| ### Bakup  | 
 | `backup_clean`        | `php artisan backup:clean`                      |
 | `backup_run`          | `php artisan backup:run`                        |
 | `backup_list`         | `php artisan backup:list`                       |
 | `backup_monitor`      | `php artisan backup:monitor`                    |   
-| ## Breeze | 
+| ### Breeze | 
 | `breeze`             | `php artisan breeze:install`                     |
+| ### Breeze | 
+| `cache_clear`             | `php artisan cache:clear`                     |
+| `cache_forget`             | `php artisan cache:forget`                     |
+| `cache_table`             | `php artisan cache:table`                     |
+| `cache_pst`             | `php artisan cache:prune-stale-tags`                     |
