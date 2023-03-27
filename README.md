@@ -19,6 +19,7 @@
 
 | Alias                 | Description                                     |
 |:----------------------|:------------------------------------------------|
+| Base commands                                                    |
 | `artisan`             | `php artisan`                                   |
 | `migrate`             | `php artisan migrate`                           |
 | `optimize`            | `php artisan optimize`                          |
