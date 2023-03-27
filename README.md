@@ -15,5 +15,11 @@
 
 
 
+## Aliases for artisan commands
+
+| Alias                 | Description                                     |
+|:----------------------|:------------------------------------------------|
+| `artisan`             | `php artisan`                                   |
 
 
+ 
