@@ -20,6 +20,11 @@
 | Alias                 | Description                                     |
 |:----------------------|:------------------------------------------------|
 | `artisan`             | `php artisan`                                   |
+| `migrate`             | `php artisan migrate`                           |
+| `optimize`            | `php artisan optimize`                          |
+| `serve`               | `php artisan serve`                             |
+| `test`                | `php artisan test`                              |
+| `tinker`              | `php artisan tinker`                            |
 
 
  
