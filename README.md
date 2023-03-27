@@ -29,15 +29,11 @@
 | `ui`                  | `php artisan ui`                                |
 | `artisan_about`       | `php artisan about`                             |
 | `artisan_list`        | `php artisan list`                              |
-| `auth_reset`          | `php artisan auth:clear-resets`                 |
-|-------------------------------------------------------------------------|
-|------------------------------- Bakup -----------------------------------|
-|-------------------------------------------------------------------------|
+| `auth_reset`          | `php artisan auth:clear-resets`                 | 
+|------------------------------- Bakup -----------------------------------| 
 | `backup_clean`        | `php artisan backup:clean`                      |
 | `backup_run`          | `php artisan backup:run`                        |
 | `backup_list`         | `php artisan backup:list`                       |
-| `backup_monitor`      | `php artisan backup:monitor`                    |  
-|-------------------------------------------------------------------------|
-|------------------------------- Breeze ----------------------------------|
-|-------------------------------------------------------------------------|
+| `backup_monitor`      | `php artisan backup:monitor`                    |   
+|------------------------------- Breeze ----------------------------------| 
 | `breeze`             | `php artisan breeze:install`                     |
