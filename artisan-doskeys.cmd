@@ -22,6 +22,7 @@ doskey backup_run=php artisan backup:run $*
 doskey backup_list=php artisan backup:list $*
 doskey backup_monitor=php artisan backup:monitor $*
 
+doskey breeze=php artisan breeze:install $
 doskey cache_clear=php artisan cache:clear $*
 doskey cache_forget=php artisan cache:forget $*
 doskey cache_table=php artisan cache:table $*
