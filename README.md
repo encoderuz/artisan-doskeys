@@ -25,6 +25,11 @@
 | `serve`               | `php artisan serve`                             |
 | `test`                | `php artisan test`                              |
 | `tinker`              | `php artisan tinker`                            |
+| `up`                  | `php artisan up`                                |
+| `ui`                  | `php artisan ui`                                |
+| `artisan_about`       | `php artisan about`                             |
+| `artisan_list`        | `php artisan list`                              |
+| `auth_reset`          | `php artisan auth:clear-resets`                 |
 
 
  
