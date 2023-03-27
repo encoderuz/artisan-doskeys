@@ -49,3 +49,8 @@
 |  | 
 |   Channel    |  
 | `channel_list`             | `php artisan channel:list`   |
+|  | 
+|   Config    |  
+| `config_cache`             | `php artisan config:cache`   |
+| `config_clear`             | `php artisan config:clear`   |
+| `config_cc`             | `php artisan config:cache && php artisan config:clear`   |
