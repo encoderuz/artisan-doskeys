@@ -37,7 +37,7 @@
 | `backup_monitor`      | `php artisan backup:monitor`                    |   
 | ### Breeze | 
 | `breeze`             | `php artisan breeze:install`                     |
-| ### Breeze | 
+| ### Cache | 
 | `cache_clear`             | `php artisan cache:clear`                     |
 | `cache_forget`             | `php artisan cache:forget`                     |
 | `cache_table`             | `php artisan cache:table`                     |
